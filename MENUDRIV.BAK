@@ -3,8 +3,8 @@
 #include<stdlib.h>
  void prime();
  void palindrome(int);
- //int reverse();
- //int even(int);
+ int reverse();
+ int even(int);
  int menu();
  void main()
 {
@@ -23,7 +23,7 @@
 			scanf("%d",&x);
 			palindrome(x);
 			break;
-	       /*	case 3:
+	       	case 3:
 			printf("\nEnter any Valur: ");
 			reverse();
 			break;
